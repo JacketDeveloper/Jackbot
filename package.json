@@ -12,7 +12,7 @@
 
   },
 
-  "dependencies": {
+  "npm start": {
 
     "@adiwajshing/baileys": "^3.4.1"
 
