@@ -4,11 +4,11 @@
 
   "description": "No comment",
 
-  "main": "Jack",
+  "main": "Jack.js",
 
   "scripts": {
 
-  "start": "Jack"
+  "start": "Jack.js"
 
   },
 
