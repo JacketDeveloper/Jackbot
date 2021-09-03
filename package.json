@@ -1,0 +1,21 @@
+  "name": "𖤍⛧𝐽𝑎𝑐𝑘 𝐵𝑜𝑡⛧𖤍",
+
+  "version": "0.0.1",
+
+  "description": "No comment",
+
+  "main": "Jack775",
+
+  "scripts": {
+
+  "start": "Jack775"
+
+  },
+
+  "dependencies": {
+
+    "@adiwajshing/baileys": "^3.4.1"
+
+  }
+
+}
