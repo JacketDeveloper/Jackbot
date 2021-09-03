@@ -28,7 +28,7 @@ async function iniciar () {
 
         await client.connect({timeoutMs: 30*1000})
 
-        fs.writeFileSync('./Samu330.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./Jack775.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
 
         }
 
