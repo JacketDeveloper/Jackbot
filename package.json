@@ -8,7 +8,7 @@
 
   "scripts": {
 
-  "start": "Jack.js"
+  "start": "node Jack.js"
 
   },
 
