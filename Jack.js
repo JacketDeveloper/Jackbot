@@ -20,7 +20,7 @@ async function iniciar () {
 
 //crear un archivo Json para guardar información: ID del cliente, Token y Keys del cliente y del SERVER.
 
-        fs.existsSync('./node Jack.json') && client.loadAuthInfo('./Jack.json')
+        fs.existsSync('./node jack.json') && client.loadAuthInfo('./jack.json')
 
 //Conectando o reconectando
 
@@ -40,7 +40,7 @@ async function iniciar () {
 
         await client.connect({timeoutMs: 30*1000})
 
-        fs.writeFileSync('./node Jack.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./node jack.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
 
         
 
@@ -120,7 +120,7 @@ const soyYo = client.user.jid
 
 const botNumber = client.user.jid.split("@")[0]
 
-const ownerNumber = ['########@s.whatsapp.net']
+const ownerNumber = ['5491122004664@s.whatsapp.net']
 
 const isGroup = from.endsWith('@g.us')
 
