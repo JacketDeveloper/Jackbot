@@ -20,7 +20,7 @@ async function iniciar () {
 
 //crear un archivo Json para guardar información: ID del cliente, Token y Keys del cliente y del SERVER.
 
-        fs.existsSync('./node jack.json') && client.loadAuthInfo('./jack.json')
+        fs.existsSync('./node Jack.json') && client.loadAuthInfo('./Jack.json')
 
 //Conectando o reconectando
 
@@ -40,7 +40,7 @@ async function iniciar () {
 
         await client.connect({timeoutMs: 30*1000})
 
-        fs.writeFileSync('./node jack.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
+        fs.writeFileSync('./node Jack.json', JSON.stringify(client.base64EncodedAuthInfo(), null, '\t'))
 
         
 
