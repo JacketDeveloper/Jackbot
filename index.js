@@ -30,7 +30,7 @@ async function iniciar () {
 
         })
 
-//La conexión fue en éxito👌🏻
+//La conexión fue en éxito
 
         client.on('open', () => {
 
@@ -138,7 +138,7 @@ switch (command) {
 
 case 'bot':
 
-client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje mediante un servidor externo😚', text, {quoted : sam})
+client.sendMessage(from, 'Hola,felicidades, has logrado enviar un mensaje mediante un servidor externo.', text, {quoted : sam})
 
 break
 
